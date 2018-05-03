@@ -1,0 +1,36 @@
+<div class="product-wrap">
+  <div class="container  ">
+    <div class="row pt-5 category">
+      <div class="col-md-4">
+        <div class="form-group">
+          <label>Select Category</label>
+          <select (change)="SelectCat($event)" class="form-control form-control-sm">
+            <option value="">All</option>
+            <option value="Mobile">Mobile</option>
+            <option value="Laptop">Laptop</option>
+            <option value="MotherBoard">MotherBoard</option>
+            <option value="Ram">Ram</option>
+          </select>
+        </div>
+      </div>
+        <div class="col-md-4">
+          <div class="form-group">
+            <label>Select Delivery Status</label>
+            <select (change)="SelectStatus($event)" class="form-control form-control-sm">
+              <option value="">All</option>
+              <option value="pending">Pending</option>
+              <option value="delivered">Delivered</option>
+              <option value="cancel">Cancel</option>
+            </select>
+          </div>
+        </div>
+   
+    </div>
+    <div class="row mt-3">
+      <div class="col-md-12">
+        <product-list [orders]="tempOrder" (sortPrice)="sortPrice()" (sortQuantity)="sortQuantity()"></product-list>
+      </div>
+
+    </div>
+  </div>
+</div>

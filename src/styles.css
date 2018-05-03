@@ -1,1 +1,144 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Poppins:300,300i,400,500,600|Source+Sans+Pro');
+
+body {
+    background: #F5F6FA;
+    color:#666!important;
+    font-family: 'Poppins', sans-serif!important;
+}
+ul {
+    padding: 0;
+
+}
+
+li {
+    list-style: none;
+}
+
+.left-side{
+    width:250px;
+    float: left;
+    background: #121F3F;
+    height: 100%;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    
+}
+.admin_info {
+    padding: 25px;
+    color: #fff;
+background: #10182F;
+}
+
+.menu {
+    padding-top: 30px;
+}
+.menu ul {
+    padding: 0;
+}
+.menu ul li {
+    color: #B9BDC8;
+    list-style: none;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    font-weight: bold;
+}
+.menu ul li:hover {
+    background: #1F2E55;
+    color: #fff;
+}
+.menu ul li i.fas {
+    padding: 0 10px;
+}
+
+.right-side{
+    padding-left: 260px;
+    width: 100%;
+    position: absolute;
+    left: 0;
+    z-index: -1;
+}
+
+.icon {
+    width: 25%;
+    float: left;
+}
+
+.promotion-box {
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+}
+.promotion-box i {
+    background: #EFE6FD;
+    border-radius: 50%;
+    color: #AE76F3;
+    font-size: 16px;
+    padding: 11px;
+}
+
+.product-list {
+    padding: 20px;
+    font-size: 13px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+}
+.delivered {
+    background: #E9FDF4;
+    color: #5DDE64;
+    padding: 5px 15px;
+    border-radius: 46px;
+}
+.cancel {
+    background: #FEEEF4;
+    color: #FD85AC;
+    padding: 5px 15px;
+    border-radius: 46px;
+}
+.pending {
+    background: #FFF6E5;
+    padding: 5px 15px;
+    border-radius: 46px;
+    color: #FEBC42;
+}
+
+
+.admin-bar {
+    padding: 30px;
+    background: #fff;
+    box-shadow: 0 10px 40px 0 rgba(62, 57, 107, 0.07), 0 2px 9px 0 rgba(62, 57, 107, 0.06);
+}
+
+
+.category {
+    background: #fff;
+
+}
+
+.category  li {
+    list-style: none;
+    padding: 10px 20px
+}
+
+.product-wrap {
+    background: #fff;
+}
+
+
+.product-from {
+    background: #fff;
+    padding: 40px;
+}
+
+
+table td {
+    text-align: center;
+}
+
+.pname {
+    width: 215px;
+    text-align: left;
+}

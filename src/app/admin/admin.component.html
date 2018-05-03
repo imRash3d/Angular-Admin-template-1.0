@@ -1,0 +1,34 @@
+<div class="admin-dashboard">
+
+  <div class="left-side">
+    <div class="admin_info">
+      <p>
+        <b>Rashedul Islam </b>
+      </p>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12">
+          <div class="menu">
+            <ul>
+              <li routerLink="">
+                <i class="fas  fa-tachometer-alt"></i> Dashboard</li>
+              <li  routerLink="product">
+                <i class="fas  fa-table"></i> Order List</li>
+              <li  routerLink="add">
+                <i class="fas  fa-clipboard-list"></i> Add Order</li>
+              <li>
+                <i class="fas  fa-map"></i> Map</li>
+
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="right-side">
+      <router-outlet></router-outlet>
+  </div>
+
+</div>
